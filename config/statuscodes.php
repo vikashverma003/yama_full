@@ -1,0 +1,126 @@
+<?php
+
+/*
+ * This is the status codes file where all the app constants are saved.
+ */
+
+return [
+    'request_status' => [
+        'SUCCESS' => 'SUCCESS',
+        'ERROR' => 'FAILURE'
+    ],
+    // ::::::::::: SUCCESS CODES & MESSAGES :::::::::::: //
+    'success_codes' => [
+        'USER_LOGIN_SUCCESS' => '200',
+        'USER_OTP_SUCCESS'   =>'200',
+        'USER_FORGOT_SUCCESS' =>'200',
+        'USER_FORGOTS_SUCCESS' =>'200',
+        'USER_UPDATE_PASSWORD'=>'200',
+        'USER_REGISTER_SUCCESS' => '200',
+        'REQUEST_SEND_SUCCESS'=>'200',
+        'REQUEST_RECIVE_SUCCESS'=>'200',
+        'CARDADDED'    => '200',
+        'MEDICATIONS_RECOMND_SUCCESS'=>'200',
+        'USER_INFO_SUCCESS' => '200',
+        'REQUEST_STATUS_SUCCESS'=>'200',
+        'USER_IMAGE_UPLOAD_SUCCESS'=>'200',
+        'USER_IMAGE_SKIP_UPLOAD_SUCCESS'=>'200',
+        'BUSINESS_IMAGE_UPLOAD_SUCCESS'=>'200',
+        'BUSINESS_PROFILE_UPDATE_SUCCESS'=>'200',
+        'INFORMATION_FETCH_SUCCESS'=>'200',
+        'USER_LOGOUT_SUCCESS'=>'200',
+        'REQUEST_REJECTED_SUCCESS'=>'200',
+        'DATE_NIGHT_CREATE_SUCCESS'=>'200',
+        'PASSWORD_UPDATE_SUCCESS'=>'200',
+        'PROFILE_EDIT_SUCCESS'=>'200',
+        'USER_SUCCESS'  =>'200',
+        'REMINDER'=>'200',
+        'SETTIMER' => '200',
+        'DOCTOR_TRUSTED_SUCCESS'=>'200',
+        'DOCTOR_UNTRUSTED_SUCCESS'=>'200',
+        'USER_CHATEND_SUCCESS'=>'200',
+        'DATE_NIGHT_INVITATION'=>'200',
+        'USER_RECOMND_SUCCESS'=>'200',
+        'RECORD_NOT_FOUND'=>'200',
+        'SUCCESS'=>'200',
+        'OFFLINE'=>'200',
+        'FREE'=>'200',
+        'ACTIVECARD'=>'200',
+        'REJECT_STATUS_SUCCESS'=>'200',
+        'DOCTOR_RATING_SUCCESS'=>'200'
+        ],
+    'success_messages' => [
+        'USER_LOGIN_SUCCESS' => 'User login successfully',
+        'SETTIMER'      =>'Reminder has been set successfully.',
+        'ACTIVECARD'         =>'Active card has been changed successfully.',
+        'REMINDER'      => 'Your reminder has been set.',
+        'FREE'=>'Your doctor is not able to take paid consultation now.',
+        'MEDICATIONS_RECOMND_SUCCESS'=>'Medication has been edit successfully',
+        'OFFLINE'=>'Sorry, Your  doctor is currently offline not able to take requests.',
+        'REJECT_STATUS_SUCCESS'=>'Request has been rejected',
+        'REQUEST_SEND_SUCCESS'=>'Request sent successfully',
+        'USER_CHATEND_SUCCESS'=>'User chat has been ended.',
+        'DOCTOR_RATING_SUCCESS'=>'Rating assign to doctor successfully.',
+        'REQUEST_RECIVE_SUCCESS' =>'Request has been revice',
+        'REQUEST_STATUS_SUCCESS'=>'Request has been accepted.',
+        'USER_UPDATE_PASSWORD'=> 'Password added successfully',
+        'REQUEST_REJECTED_SUCCESS'=>'Request has been rejected',
+        'USER_FORGOT_SUCCESS' => 'OTP has been sent please check your email',
+        'USER_FORGOTS_SUCCESS'=>'OTP has been send',
+        'USER_OTP_SUCCESS' => 'OPT has been verification successfully',
+        'USER_REGISTER_SUCCESS' => 'User register successfully',
+        'USER_SUCCESS'          => 'User success',
+        'SUCCESS' =>'Success',
+        'CARDADDED'=> 'Card has been added successfully.',
+        'RECORD_NOT_FOUND'=>'Redcord Not Found',
+        'DOCTOR_TRUSTED_SUCCESS'=>'Doctor has been trusted successfully',
+        'DOCTOR_UNTRUSTED_SUCCESS'=>'Doctor has been Untrusted successfully',
+        'USER_RECOMND_SUCCESS'=>'Medicine has been added successfully',
+        'USER_INFO_SUCCESS'     =>'User info added successfully',
+        'USER_IMAGE_UPLOAD_SUCCESS'=>'User profile image uploaded successfully',
+        'USER_IMAGE_SKIP_UPLOAD_SUCCESS'=>'User image upload skipped successfully',
+        'BUSINESS_IMAGE_UPLOAD_SUCCESS' => "Business image uploaded successfully",
+        'BUSINESS_PROFILE_UPDATE_SUCCESS' => 'Business profile information updated sucessfully',
+        'INFORMATION_FETCH_SUCCESS'     => 'Information retrieved successfully',
+        'USER_LOGOUT_SUCCESS'       =>  'User logout successfully',
+        'DATE_NIGHT_CREATE_SUCCESS'  => 'Date night event created successfully',
+        'PASSWORD_UPDATE_SUCCESS'=>'New password updated successfully',
+        'PROFILE_EDIT_SUCCESS'=> 'Profile information updated successfully',
+        'DATE_NIGHT_INVITATION'=>'Date night invitation performed successfully'
+        
+    ],
+    // ---------------------- :::::::::::::::::::: ------------------//
+    // ---------------------- END - SUCCESS CODES & MESSAGES --------//
+    // ---------------------- :::::::::::::::::::: ------------------//
+    // ::::::::::: ERROR CODES & MESSAGES :::::::::::: //
+    'error_codes' => [
+        'USER_NOT_EXIST' => '404',
+        'BAD_REQUEST' => '400',
+        'DB_ERROR' => '500',
+        'USER_OTP_FAIL'      =>'403',
+        'NOT_LONGER'=>'403',
+        'USER_FORGOTPHONE_SUCCESS'=>'403',
+        'USER_PASSWORD_WRONG'=>'404',
+        'ACCESS_ERROR'  => '403',
+        'USER_NOT_FOUND' =>'403',
+        'USER_FORGOTEMAIL_SUCCESS'=>'403',
+        'ACCOUNT_NOT_VERIFY'=>'403',
+        'OLD_PASSWORD_NOT_MATCH_ERROR'=>'400',
+        'DATE_NIGHT_CONTACT_NOT_EXIST'=>'404'
+    ],
+    'error_messages' => [
+        'USER_NOT_EXIST' => 'User does not exist.',
+        'NOT_LONGER'=>'This request is no longer available.',
+        'USER_FORGOTEMAIL_SUCCESS'=>'Email Not Found.',
+        'USER_FORGOTPHONE_SUCCESS'=>'Phone Number Not Found.',
+        'USER_NOT_FOUND' =>'User Not Found.',
+        'USER_OTP_FAIL'      => 'OTP does Not Matched',
+        'BAD_REQUEST' => 'Bad request or data validation failed.',
+        'DB_ERROR' => 'Internal Server Error. Please try again.',
+        'USER_PASSWORD_WRONG'=>'You have entered wrong password.',
+        'ACCESS_ERROR'  => 'You don\'t have permission for this api',
+        'ACCOUNT_NOT_VERIFY'=> 'You account is not verify by admin',
+        'OLD_PASSWORD_NOT_MATCH_ERROR'=>'Old password did not match',
+        'DATE_NIGHT_CONTACT_NOT_EXIST'=>'Date Night Contact does not exist'
+    ],
+];

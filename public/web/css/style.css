@@ -1,0 +1,1150 @@
+/* light */
+
+@font-face {
+    font-family: "Google Sans";
+    src: url('/web/fonts/Google Fonts - Open Sans Light.ttf') format('woff2'), url('/web/fonts/Google Fonts - Open Sans Light.ttf') format('woff'), url('/web/fonts/Google Fonts - Open Sans Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* regular */
+
+@font-face {
+    font-family: "Google Sans";
+    src: url('/web/fonts/Google Fonts - Open Sans.ttf') format('woff2'), url('/web/fonts/Google Fonts - Open Sans.ttf') format('woff'), url('/web/fonts/Google Fonts - Open Sans.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url('/webfonts/Google Fonts - Open Sans Semibold.ttf') format('woff2'), url('/web/fonts/Google Fonts - Open Sans Semibold.ttf') format('woff'), url('/web/fonts/Google Fonts - Open Sans Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url('/web/fonts/Google Fonts - Open Sans Bold.ttf') format('woff2'), /* Super Modern Browsers */
+    url('/web/fonts/Google Fonts - Open Sans Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('/web/fonts/Google Fonts - Open Sans Bold.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: bold;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.emailSection {
+    background-color: #FAFAFA;
+}
+
+.emailSection .container {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.emailSection img {
+    height: 132px;
+    width: 176px;
+    margin-bottom: 100px;
+}
+
+.emailSection input {
+    height: 54px;
+    width: 100%;
+    border: 0.55px solid #111821;
+    background-color: #F9F9F9;
+    color: rgba(32, 31, 35, 0.9);
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+}
+
+.emailSection button {
+    height: 54px;
+    width: 100%;
+    background-color: #FD8203;
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.emailSection span {
+    color: rgba(32, 31, 35, 0.55);
+    font-family: "Google Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.emailSection span a {
+    color: #FD8203;
+}
+
+.navigation-wrap {
+    background-color: #111821;
+}
+
+.navigation-wrap .navbar-brand img {
+    height: 40px;
+    width: 153px;
+}
+
+.navigation-wrap .navbar {
+    padding: 10px 10px;
+}
+
+.navigation-wrap .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.profileIcon {
+    height: 19px;
+    width: 19px;
+    margin-right: 7px;
+}
+
+.dropdownIcon {
+    height: 7px;
+    width: 12px;
+    margin-left: 7px;
+}
+
+.requestIcon {
+    height: 24px;
+    width: 24px;
+    margin-right: 7px;
+}
+
+.toggleDiv {
+    cursor: pointer;
+}
+
+.profileMenu {
+    display: none;
+}
+
+.profileMenu.main {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.profileMenu.main li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.profileMenu.main li:hover {
+    background-color: #FD8203;
+}
+
+.profileMenu.main li:hover a {
+    color: #FFFFFF;
+}
+
+.profileMenu.main li a {
+    color: #1C1C1C;
+    font-family: "Google Sans";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.weatherDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.weatherDiv img {
+    height: 39px;
+    width: 39px;
+    margin-right: 15px;
+}
+
+.weatherDiv h3 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 28px;
+    line-height: 34px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0;
+}
+
+.weatherDiv h3 sup {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+}
+
+.weatherDiv h2 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 28px;
+    line-height: 34px;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.weatherDiv h4 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.weatherDiv h4 span {
+    opacity: 0.7;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: block;
+    font-weight: 400;
+}
+
+.spaceImg {
+    height: 704px;
+    width: 590px;
+}
+
+/* footer */
+
+.footer-logo {
+    height: 40px;
+    width: 153px;
+}
+
+footer {
+    padding: 50px 0 0;
+    border-top: 1px solid #E1E1E1;
+    background-color: #111821;
+}
+
+footer h5 {
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Google Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+footer ul li {
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 5px 0px;
+}
+
+footer ul li:last-child {
+    padding-bottom: 40px;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+footer ul li a:hover {
+    color: #FD8203;
+    text-decoration: none;
+}
+
+footer img {
+    margin-bottom: 15px;
+}
+
+.footer-btm .container {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px 0 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.footer-btm h4 {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Google Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.footer-btm p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Google Sans";
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.social-links li img {
+    height: 17px;
+    width: 18px;
+}
+
+.footer-btm ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0px !important;
+}
+
+/* footer */
+
+.spaceSection .nav-link img {
+    height: 26px;
+    width: 26px;
+    margin-right: 5px;
+}
+
+.spaceSection li:last-child .nav-link img {
+    height: 21.23px;
+    width: 24px;
+    margin-bottom: 4px;
+}
+
+.spaceSection .nav-tabs .nav-link {
+    border: none;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.spaceSection .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #111821;
+}
+
+.spaceSection .nav-tabs .nav-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+.spaceSection .nav-tabs {
+    margin-bottom: 30px;
+}
+
+.spaceSection select {
+    width: 100%;
+    height: 42px;
+    border: 1px solid rgba(17, 24, 33, 0.33);
+    color: rgba(17, 24, 33, 0.33);
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.searchBtn {
+    height: 42px;
+    padding: 5px 30px;
+    border: none;
+    background-color: #FD8203;
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+}
+
+.spaceSection h2 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 54px;
+}
+
+.spaceSection p {
+    opacity: 0.7;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.features-section {
+    background-color: #FAFAFA;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.features-section h2 {
+    color: #2B292D;
+    font-family: "Google Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.features-section p {
+    opacity: 0.7;
+    color: #2B292D;
+    font-family: "Google Sans";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.features-section img {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 15px;
+}
+
+.features-section button {
+    height: 40px;
+    padding: 2px 20px;
+    border: 1px solid #FD8203;
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.news-section {
+    padding: 60px 0px;
+}
+
+.news-section h2 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin: 0;
+}
+
+.eventosList li {
+    padding: 20px 0px 20px 110px;
+    position: relative;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.22);
+}
+
+.eventosList li:last-child {
+    border: none;
+}
+
+.eventosList li h3 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0;
+}
+
+.eventosList li h4 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin: 0;
+}
+
+.eventosList li h5 {
+    opacity: 0.55;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.eventosList li h6 {
+    opacity: 0.55;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin: 0;
+}
+
+.eventosList .eventosImg {
+    height: 80px;
+    width: 97px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.viewEventsBtn {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.viewEventsBtn img {
+    height: 12px;
+    width: 17.44px;
+}
+
+.news-slides .news-img {
+    height: 208px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.news-slides h2 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.news-slides p {
+    opacity: 0.55;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0;
+}
+
+.news-slides {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #EAEAEA;
+    position: relative;
+}
+
+.news-slides .owl-prev img, .owl-next img {
+    height: 24px;
+    width: 24px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+}
+
+.news-slides .owl-prev {
+    position: absolute;
+    top: 104px;
+    left: 20px;
+}
+
+.news-slides .owl-next {
+    position: absolute;
+    top: 104px;
+    right: 20px;
+}
+
+.profile-section {
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.profile-section .container {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 12px 0 rgba(38, 38, 46, 0.02);
+    padding: 30px;
+}
+
+.profile-tabs {
+    padding: 30px 15px;
+    border: 1px solid rgba(5, 0, 0, 0.16);
+    margin-bottom: 30px;
+}
+
+.profileImg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.updateBtn {
+    border: none;
+    background-color: #FFFFFF;
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    display: block;
+    margin: auto;
+}
+
+.line-bottom {
+    border-bottom: 1px solid rgba(17, 24, 33, 0.16);
+    margin: 15px 0px;
+}
+
+.profile-tabs .nav-tabs {
+    display: block;
+    border: none;
+    padding: 0px 10px;
+}
+
+.profile-tabs .nav-tabs .nav-link {
+    border: none;
+    color: rgba(17, 24, 33, 0.55);
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.profile-tabs .nav-tabs .nav-link:hover {
+    color: #111821;
+}
+
+.profile-tabs .nav-tabs .nav-link.active {
+    font-weight: 600;
+    color: #111821;
+}
+
+.profileDiv {
+    position: relative;
+}
+
+.editProfileBtn {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+
+.profileDiv h1 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 46px;
+}
+
+.profileDiv h2 {
+    opacity: 0.7;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.creditsDiv {
+    border-radius: 4px;
+    background-color: rgba(253, 130, 3, 0.11);
+    padding: 10px 15px;
+    position: relative;
+}
+
+.creditsDiv h6 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.creditsDiv h6 span {
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 26px;
+    padding-right: 8px;
+}
+
+.creditsBtn {
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.profileDiv h3 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.profileDiv h4 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.profileDiv h5 {
+    opacity: 0.55;
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.profileDiv p {
+    color: rgba(17, 24, 33, 0.7);
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.myUsersDiv h1 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.totalDiv {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.totalDiv h5 {
+    color: #111821;
+    font-family: "Google Sans";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin: 0;
+    position: relative;
+}
+
+.totalDiv h5 strong {
+    display: block;
+    color: #212529;
+    font-family: "Google Sans";
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.totalDiv img {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.myUsersTabs {
+    position: relative;
+}
+
+.myUsersTabs .nav-tabs {
+    border-bottom: 1.5px solid #dee2e6;
+}
+
+.myUsersTabs .nav-tabs .nav-link {
+    border: none;
+    color: rgba(58, 59, 63, 0.55);
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+
+.myUsersTabs .nav-tabs .nav-link.active {
+    color: #111821;
+}
+
+.myUsersTabs .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #111821;
+}
+
+.myUsersTabs .nav-tabs .nav-item {
+    text-align: center;
+}
+
+.addUserBtn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.addUserBtn:hover {
+    color: #FD8203;
+}
+
+.userImg {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.myUsersDiv table {
+    width: 100%;
+}
+
+.myUsersDiv table td {
+    color: #434B52;
+    font-family: "Google Sans";
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.myUsersDiv table tr {
+    border-bottom: 1px solid rgba(206, 211, 217, 0.4);
+}
+
+.editBtn {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.moreBtn {
+    border: none;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+.editBtn img {
+    height: 17px;
+    width: 17px;
+}
+
+.moreBtn img {
+    height: 16px;
+    width: 4px;
+}
+
+.myUsersDiv .modal-content {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.06);
+}
+
+.myUsersDiv .modal-dialog {
+    max-width: 896px;
+}
+
+.myUsersDiv .modal-body .close {
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.myUsersDiv .modal-body .close img {
+    height: 24px;
+    width: 24px;
+}
+
+.myUsersDiv .modal-body {
+    padding: 30px 55px 50px;
+}
+
+.myUsersDiv .modal {
+    padding: 0 !important;
+}
+
+.myUsersDiv .modal-content h2 {
+    color: #2C2C2C;
+    font-family: "Google Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.myUsersDiv .modal-content h4 {
+    opacity: 0.55;
+    color: #2C2C2C;
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.uploadUserImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.uploadImgBtn {
+    color: #FD8203;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+}
+
+.continueBtn {
+    height: 50px;
+    width: 100%;
+    background-color: #FD8203;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.myUsersDiv .modal-content h3 {
+    color: #111111;
+    font-family: "Google Sans";
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.myUsersDiv .modal-content h1 {
+    color: #2C2C2C;
+    font-family: "Google Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.user-input {
+    width: 100%;
+    height: 48px;
+    border: 0.55px solid rgba(208, 208, 208, 0.5);
+    background-color: #F9F9F9;
+    color: #2C2C2C;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+}
+
+.user-input:focus {
+    border: 0.55px solid rgba(208, 208, 208, 0.5);
+    background-color: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(239, 169, 31, 0.55);
+}
+
+.myUsersDiv input[type="checkbox"] {
+    height: 18px;
+    width: 18px;
+    border: 2px solid rgba(17, 24, 33, 0.55);
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.myUsersDiv label {
+    margin: 0;
+    color: #2C2C2C;
+    font-family: "Google Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#imageUpload {
+    visibility: hidden;
+}
+
+.uploadImgLabel {
+    color: #FD8203 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0;
+    line-height: 22px !important;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.myUsersDiv input[type="radio"] {
+    height: 18px;
+    width: 18px;
+    border: 2px solid rgba(17, 24, 33, 0.55);
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+}
